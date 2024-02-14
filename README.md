@@ -15,7 +15,7 @@ Python version: I've used 3.12
    1. normalize your source files    
         `cat <data_source_file>.json | jq '.[]' | jq -c > <normalized_output>.json`
    2. upload the normalized files to ES via Kibana UI
-3. If you've changed default values of ELK update the _config.py_ file 
+3. If you've changed default values of ELK please update the _config.py_ file 
 
 ### Setup Hugging Face
 1. register on Hugging Face
